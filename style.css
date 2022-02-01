@@ -1,0 +1,287 @@
+*{
+margin: 0;
+padding: 0;
+}
+.right-menu li{
+    display: inline-block;
+    margin-top: 30px;
+}
+.collapse .navbar-nav .nav-item .nav-link{
+    color: teal !important;
+    font-weight: 600;
+    
+}
+.right-menu li .fab{
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.navbar-brand img{
+    width: 160px;
+} 
+.navbar-brand{
+    left: 50%;
+    top: 25px;
+    position: absolute;
+    transform: translate(-50%);
+}
+.header{
+    background-color: tan;
+}
+.navbar{
+    padding: 0 35px !important;
+    margin-bottom: 80px;
+}
+.navbar-toggler{
+    border: none;
+    outline: none;
+    padding: 0 !important;
+    margin-top: 30px !important;
+}
+.navbar-toggler .fas{
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+.banner-img{
+    margin: 80px 115px;
+    width: 60%;
+}
+.banner-img img{
+    width: 100%;
+    margin-bottom: -80px;
+}
+.banner{
+    position: relative;
+}
+.banner-tittle{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+.banner-tittle h1{
+    color: white;
+    background: rgba(0,0,0,0.75);
+    font-size: 55px;
+    line-height: 70px;
+    padding: 0px 10px 0 10px;
+}
+.fashion-trends{
+    padding: 100px 0;
+}
+.fashion-box{
+    margin: 80px 0;
+
+}
+.tittle-style h1{
+    padding: 40px 0;
+}
+.tittle-style{
+    margin: 0 auto 80px;
+    height: 120px;
+    width: 80%;
+    background: tan;
+    position: relative;
+    box-shadow: 0 4 5 0 rgba(0,0,50,0.5);
+}
+/* fashion trends*/ 
+.trending-img{
+    position: relative;
+    margin-bottom: 15px;
+}
+.trending-img img{
+width: 100%;
+}
+.btn-buy{
+    padding: 10px 0;
+    width: 150px;
+    outline: none;
+    border: none;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    border-radius: 2px;
+    background: tomato;
+    transform: translate(-50%, 0);
+    transition: 1s;
+   opacity: 0;
+    z-index: 1;
+}
+.trending-img:hover .btn-buy{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+    
+    
+}
+
+.trending-img:hover .overlay{
+    height: 100%;
+    width: 100%;
+    background: #333;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    transition: .5s;
+    
+}
+/*offer*/ 
+.offer{
+    background-image: url(images/fashion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.subscribe{
+    max-width: 500px;
+    margin-top: 80px;
+    padding: 60px;
+    background: lightsalmon;
+    margin-bottom: 20px;
+}
+.subscribe h4{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+}
+.subscribe a{
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    color: white !important;
+    background:olive;
+}
+
+.offer img{
+    width: 300px;
+    height: 400px;
+    margin-top: 150px;
+    margin-bottom: -100px;
+}
+/*----fashion blog-----*/
+.fashion-blog{
+    margin: 250px 0 150px 0;
+
+}
+.blog-img{
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+}
+.fashion-blog h5{
+    margin-top: 20px;
+    font-weight: 600;
+}
+/*----fashion brands-----*/
+.fashion-brands{
+    margin-bottom: 150px;
+}
+.brand-logo{
+    width: 200px;
+    height: 200px;
+    background: tan;
+    border-radius: 50%;
+    margin: 50px auto 30px;
+    box-shadow: 0 2px 40px 0 rgba(110,130,208,.18) ;
+}
+.brand-logo img{
+    width: 100px;
+    height: 100px;
+}
+.fashion-brands p{
+    margin-top: 30px;
+    font-weight: 600;
+}
+/*---footer--*/
+.footer{
+    margin-top: 150px;
+    background: tan;
+}
+.payment,.insta-img,.app-download{
+    margin: 50px auto;
+
+}
+.payment img{
+    width: 300px;
+    cursor: pointer;
+}
+.insta-img img{
+    width: 75px;
+    padding: 5px;
+    cursor: pointer;
+}
+.app-download img{
+    width: 200px;
+}
+.footer h5{
+    margin-bottom: 50px;
+}
+.footer-icon{
+    text-align: right;
+}
+.footer-icon .fab{
+    margin: 0 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*---media quries--*/
+@media only screen and (max-width:900px){
+    .banner-img{
+        margin: 40px auto;
+        width: 80%;
+    }
+    .banner-tittle{
+        
+        left: 50%;
+        top: 180px;
+        transform: translate(-50%);
+    }
+    .banner-tittle h1{
+        font-size: 16px;
+        padding: 5px;
+        line-height: 20px;
+    }
+    .offer img{
+        margin-top: 20px!important;
+        margin-bottom: 0 !important;
+    }
+    .subscribe{
+        max-width: 500px;
+       
+        margin: 80px 25px 40px 25px;
+   
+        background: lightsalmon;
+        
+    }
+    .footer-icon{
+        text-align: center;
+    } 
+    .copyright{
+        text-align: center;
+    }
+    .btn-buy{
+        padding: 10px 0;
+        width: 150px;
+        outline: none;
+        border: none;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        border-radius: 2px;
+        background: tomato;
+        transform: translate(-50%, 0);
+        transition: 1s;
+       opacity: 1;
+        z-index: 1;
+    }
+    
+
+    
+}
